@@ -1,0 +1,143 @@
+/* styles.css */
+.body-customer {
+  width: 1390px;
+  margin: 200px;
+  
+}
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 5px auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu{
+  color: black;
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+/*chu user và password login*/
+.align-center {
+  width: 250px;
+  margin: 0px auto;
+  height: 120px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  font-size: large;
+}
+/*chữ admin login*/
+.align-valign-center {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 50px 500px 50px;
+  background-color: black;
+  height: 300px;
+  width: 1290px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+.text-center {
+  text-align: center;
+  height: 20px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.align-centers{
+  text-align: center;
+  width: 1440px;
+}
+span.link {
+  cursor: pointer;
+  color:#083617;
+  text-decoration: underline;
+}
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 9px 0px;
+  width: 1370px;
+  margin-left: 20px;
+}
+div.float-left {
+  float: left;
+  margin-left: 30px;
+}
+div.float-right {
+  float:right;
+  margin-left: 10px;
+}
+div.float-clear {
+  clear:both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+}
+li.menu {
+  display:inline-block;
+  margin-right: 40px;
+  text-transform:uppercase;
+}
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 110px;
+}
+/* datatable.css */
+.datatable {
+  text-align: center;
+  border-collapse:separate;
+  color: black;
+}
+/* header */
+tr:first-child.datatable {
+  background-color: #083617;
+  color: white;
+}
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #f5f5f5;
+}
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #f5f5f5;
+}
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #72807d;
+  cursor: pointer;
+}
+.float-leftb{
+  margin-left: 20px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-centerb{
+  margin-left: 10px;
+}
+.float-leftb{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 1390px;
+  
+}
+.float-rightb{
+  margin-left: 900px;
+  margin-top: -160px;
+  line-height: 30px;
+}
+.text-centerc{
+  color:black;
+}
+.text-centerc{
+  text-align: center;
+}
+.datatablec{
+  margin-left:300px;
+} 
