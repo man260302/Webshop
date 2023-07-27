@@ -23,7 +23,7 @@ class Product extends Component {
           <td>{item.price}</td>
           <td>{new Date(item.cdate).toLocaleString()}</td>
           <td>{item.category.name}</td>
-          <td><img src={"data:image/jpg;base64," + item.image} width="100px" height="100px" alt="" /></td>
+          <td><img src={"data:image/jpg;base64," + item.image[0]} width="100px" height="100px" alt="" /></td>
         </tr>
       );
     });
